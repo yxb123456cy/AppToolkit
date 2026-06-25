@@ -8,8 +8,8 @@
 
 ### 阶段一：Monorepo 架构演进与基础工程
 
-- [ ] 1. 初始化 `pnpm workspace`，创建 `pnpm-workspace.yaml` 并配置工作区路由。
-- [ ] 2. 引入 `Turborepo`，创建 `turbo.json` 配置全局构建缓存与任务编排。
+- [x] 1. 初始化 `pnpm workspace`，创建 `pnpm-workspace.yaml` 并配置工作区路由。
+- [x] 2. 引入 `Turborepo`，创建 `turbo.json` 配置全局构建缓存与任务编排。
 - [ ] 3. 创建 `packages/core` 目录，用于承载 Node.js 管理、Git 配置、软件安装等底层业务逻辑。
 - [ ] 4. 创建 `packages/types` 目录，统一存放全局 TypeScript 类型定义与接口声明。
 - [ ] 5. 创建 `packages/config` 目录，抽取共享的 ESLint、Prettier、TypeScript 配置。

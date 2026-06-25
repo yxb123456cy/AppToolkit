@@ -1,0 +1,89 @@
+# ==============================================================================
+# OS / IDE / Environment
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==============================================================================
+# Node / Dependencies
+# ==============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn
+.pnpm-store
+.yarn-integrity
+.node_repl_history
+
+# ==============================================================================
+# Monorepo / Turborepo
+# ==============================================================================
+.turbo/
+
+# ==============================================================================
+# Build / Output / Cache
+# ==============================================================================
+dist/
+build/
+out/
+release/
+.cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+coverage/
+.nyc_output/
+logs/
+*.log
+
+# ==============================================================================
+# Electron specific
+# ==============================================================================
+*.dmg
+*.exe
+*.AppImage
+*.snap
+*.deb
+*.rpm
+*.zip
+*.tar.gz
+*.tar.xz
+dist-electron/
+app/dist/
+
+# ==============================================================================
+# Environment Variables
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==============================================================================
+# Apps & Packages specific ignore rules
+# ==============================================================================
+apps/*/dist/
+apps/*/build/
+apps/*/out/
+apps/*/release/
+packages/*/dist/
+packages/*/build/
