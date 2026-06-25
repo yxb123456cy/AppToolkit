@@ -1,3 +1,9 @@
 packages:
   - "apps/*"
+  - "apps/desktop"
+  - "apps/tui-cli"
+  - "apps/docs-site"
   - "packages/*"
+  - "packages/types"
+  - "packages/config"
+  - "packages/core"
